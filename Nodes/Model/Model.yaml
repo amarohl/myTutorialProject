@@ -16,3 +16,4 @@ Children:
 - Name: Temperature
   Type: BaseDataVariableType
   DataType: Int32
+- File: Widgets/Widgets.yaml

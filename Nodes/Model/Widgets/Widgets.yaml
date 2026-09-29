@@ -1,0 +1,21 @@
+Name: Widgets
+Type: FolderType
+Children:
+- Name: TestObj1
+  Type: BaseObjectType
+  Children:
+  - Name: Ingredient01
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Ingredient02
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Ingredient03
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Motor1Alarm
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Temperature
+    Type: BaseDataVariableType
+    DataType: Int32

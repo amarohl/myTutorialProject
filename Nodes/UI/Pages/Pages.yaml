@@ -170,7 +170,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "/Objects/myTutorialProject/Model/Temperature"
+        Value: "/Objects/myTutorialProject/Model/Widgets/TestObj1/Temperature"
         Children:
         - Name: Mode
           Type: BaseVariableType
@@ -216,7 +216,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "/Objects/myTutorialProject/Model/Temperature"
+        Value: "/Objects/myTutorialProject/Model/Widgets/TestObj1/Temperature"
         Children:
         - Name: Mode
           Type: BaseVariableType
