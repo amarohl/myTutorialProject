@@ -20,7 +20,7 @@ Children:
   - Name: StyleSheet
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"8da2b5865c73184b748c69f73d34bedf","Namespace":7}
+    Value: "/Objects/myTutorialProject/UI/FriendlyDark1"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -504,6 +504,7 @@ Children:
 - File: Keyboards/Keyboards.yaml
 - File: Pages/Pages.yaml
 - Name: FriendlyDark1
+  Id: g=00627fa02aea9e78524a5390d1a16449
   Type: StyleSheet
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
