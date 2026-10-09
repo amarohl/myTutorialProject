@@ -376,7 +376,7 @@ Children:
     - Name: StyleSheet
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"8da2b5865c73184b748c69f73d34bedf","Namespace":7}
+      Value: "/Objects/myTutorialProject/UI/FriendlyDark1"
       Children:
       - Name: Kind
         Type: PropertyType
