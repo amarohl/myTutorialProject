@@ -31,3 +31,4 @@ Children:
     DataType: Color
     ModellingRule: Optional
     Value: "#f0f0f0"
+- File: AlarmWidgets/AlarmWidgets.yaml
