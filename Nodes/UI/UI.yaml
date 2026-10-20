@@ -427,7 +427,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/myTutorialProject/UI/Pages/Page5"
+          Value: "/Objects/myTutorialProject/UI/Pages/Data_Grid"
           Children:
           - Name: Kind
             Type: PropertyType
