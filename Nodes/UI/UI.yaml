@@ -442,7 +442,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/myTutorialProject/UI/Pages/Page6"
+          Value: "/Objects/myTutorialProject/UI/Pages/RT_Trend"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -457,7 +457,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/myTutorialProject/UI/Pages/Page7"
+          Value: "/Objects/myTutorialProject/UI/Pages/HT_Trend"
           Children:
           - Name: Kind
             Type: PropertyType

@@ -291,6 +291,7 @@ Children:
       }
      }
 - Name: DataLogger1
+  Id: g=6a278d0199e3da781352d45446ca6cea
   Type: DataLogger
   Children:
   - Name: SamplingMode

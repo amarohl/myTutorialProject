@@ -32,3 +32,4 @@ Children:
     ModellingRule: Optional
     Value: "#f0f0f0"
 - File: AlarmWidgets/AlarmWidgets.yaml
+- File: AdvancedTrend/AdvancedTrend.yaml
