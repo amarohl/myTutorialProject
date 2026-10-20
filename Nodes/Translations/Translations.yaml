@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [89,2],
+    "Dimensions": [96,2],
     "Body": [
      "","en-US",
      "Cancel","Cancel",
@@ -99,6 +99,13 @@ Children:
      "TimedShelved","Timed Shelved",
      "OneShotShelved","One-Shot Shelved",
      "Suppressed","Suppressed",
-     "Disabled","Disabled"
+     "Disabled","Disabled",
+     "Acked","Acked",
+     "SourceName","Source Variable",
+     "Timestamp","Timestamp",
+     "Active","Active",
+     "From","From",
+     "To","To",
+     "Refresh","Refresh"
     ]
    }

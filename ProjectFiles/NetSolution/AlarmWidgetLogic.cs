@@ -7,6 +7,9 @@ using System.Linq;
 using System.Linq.Expressions;
 using UAManagedCore;
 using FTOptix.SerialPort;
+using FTOptix.SQLiteStore;
+using FTOptix.Store;
+using FTOptix.EventLogger;
 using static AlarmFilterDataLogic;
 #endregion
 

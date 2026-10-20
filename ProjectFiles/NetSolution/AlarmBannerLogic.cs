@@ -5,6 +5,9 @@ using UAManagedCore;
 using FTOptix.Core;
 using FTOptix.NetLogic;
 using FTOptix.SerialPort;
+using FTOptix.SQLiteStore;
+using FTOptix.Store;
+using FTOptix.EventLogger;
 #endregion
 
 public class AlarmBannerLogic : BaseNetLogic

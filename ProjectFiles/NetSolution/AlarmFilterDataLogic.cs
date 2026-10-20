@@ -6,6 +6,9 @@ using System;
 using System.Collections.Generic;
 using UAManagedCore;
 using FTOptix.SerialPort;
+using FTOptix.SQLiteStore;
+using FTOptix.Store;
+using FTOptix.EventLogger;
 #endregion
 
 public class AlarmFilterDataLogic : BaseNetLogic

@@ -412,7 +412,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/myTutorialProject/UI/Pages/Page4"
+          Value: "/Objects/myTutorialProject/UI/Pages/Alarm_History"
           Children:
           - Name: Kind
             Type: PropertyType

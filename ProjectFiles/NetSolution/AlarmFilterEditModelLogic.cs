@@ -9,6 +9,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Xml.Linq;
 using FTOptix.SerialPort;
+using FTOptix.SQLiteStore;
+using FTOptix.Store;
+using FTOptix.EventLogger;
 #endregion
 
 public class AlarmFilterEditModelLogic : BaseNetLogic

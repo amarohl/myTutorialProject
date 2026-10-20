@@ -5,6 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using UAManagedCore;
 using FTOptix.SerialPort;
+using FTOptix.SQLiteStore;
+using FTOptix.Store;
+using FTOptix.EventLogger;
 using static AlarmFilterDataLogic;
 #endregion
 
