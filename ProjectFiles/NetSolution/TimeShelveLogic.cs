@@ -9,6 +9,7 @@ using FTOptix.EventLogger;
 using FTOptix.DataLogger;
 using FTOptix.InfluxDBStore;
 using FTOptix.InfluxDBStoreLocal;
+using FTOptix.Report;
 #endregion
 
 public class TimeShelveLogic : BaseNetLogic

@@ -13,6 +13,7 @@ using FTOptix.Store;
 using FTOptix.SQLiteStore;
 using FTOptix.WebUI;
 using System.Threading;
+using FTOptix.Report;
 
 #endregion
 

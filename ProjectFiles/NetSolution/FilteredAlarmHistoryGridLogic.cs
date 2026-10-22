@@ -14,6 +14,7 @@ using FTOptix.SQLiteStore;
 using FTOptix.DataLogger;
 using FTOptix.InfluxDBStore;
 using FTOptix.InfluxDBStoreLocal;
+using FTOptix.Report;
 #endregion
 
 public class FilteredAlarmHistoryGridLogic : BaseNetLogic
