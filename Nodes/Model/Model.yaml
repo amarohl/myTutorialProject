@@ -17,3 +17,4 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
 - File: Widgets/Widgets.yaml
+- File: Recipe/Recipe.yaml

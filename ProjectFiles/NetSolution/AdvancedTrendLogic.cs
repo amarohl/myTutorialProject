@@ -14,6 +14,8 @@ using FTOptix.SQLiteStore;
 using FTOptix.WebUI;
 using System.Threading;
 using FTOptix.Report;
+using FTOptix.RecipeX;
+using FTOptix.Recipe;
 
 #endregion
 

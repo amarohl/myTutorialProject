@@ -140,16 +140,24 @@ Project:
    Uri: 'urn:FTOptix:Report:Net'
    Module: FTOptix.Report.Net
    Version: 2.5
+  35:
+   Uri: 'urn:FTOptix:RecipeX'
+   Module: FTOptix.RecipeX
+   Version: 1.1
+  36:
+   Uri: 'urn:FTOptix:RecipeX:Net'
+   Module: FTOptix.RecipeX.Net
+   Version: 1.1
  Statistics:
-  TotalNodeCount: 13284
-  Objects: 2831
-  ObjectTypes: 68
-  Variables: 10352
+  TotalNodeCount: 14960
+  Objects: 3173
+  ObjectTypes: 82
+  Variables: 11672
   VariableTypes: 0
   DataTypes: 0
   Methods: 33
-  References: 127
+  References: 180
   ReferenceTypes: 0
-  Files: 28
+  Files: 35
  Nodes:
  - File: Nodes/myTutorialProject.yaml

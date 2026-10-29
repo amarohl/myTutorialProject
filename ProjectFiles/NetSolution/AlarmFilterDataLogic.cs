@@ -13,6 +13,8 @@ using FTOptix.DataLogger;
 using FTOptix.InfluxDBStore;
 using FTOptix.InfluxDBStoreLocal;
 using FTOptix.Report;
+using FTOptix.RecipeX;
+using FTOptix.Recipe;
 #endregion
 
 public class AlarmFilterDataLogic : BaseNetLogic

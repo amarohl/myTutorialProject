@@ -5763,10 +5763,15 @@ Children:
       - Class: Reference
         Target: g=d2552f16c8a4dca0669520eba158d47e
         Direction: Forward
-- Name: Page8
+- Name: Recepies
   Id: g=d452e928be9429ae6e010a5e61eda38a
   Supertype: Page
   ReferenceType: HasComponent
+  Children:
+  - Name: RecepieBook
+    Type: FolderType
+    Children:
+    - File: RecipesEditor/RecipesEditor.yaml
 - Name: Page9
   Id: g=eb6faa38605964dcc7eadb524abd52f5
   Supertype: Page

@@ -1,2 +1,87 @@
 Name: Recipes
 Type: RecipesCategoryFolder
+Children:
+- Name: RecipeSchema1
+  Id: g=304e312726afe7cfcebbba4eceac6cba
+  Type: RecipeSchema
+  Children:
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/myTutorialProject/Model/Recipe"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/myTutorialProject/DataStores/RecipeDB"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: RecipeSchemaStatus
+    AccessLevel: Read
+  - Name: Metadata
+    Type: BaseObjectType
+  - Class: Reference
+    Target: ns=35;i=16
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=18
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=20
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=23
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=26
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=28
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=36
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=73
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=79
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=91
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=59
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=61
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=63
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=65
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=175
+    Direction: Forward

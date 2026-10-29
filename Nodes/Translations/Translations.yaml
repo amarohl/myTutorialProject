@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [134,2],
+    "Dimensions": [154,2],
     "Body": [
      "","en-US",
      "Cancel","Cancel",
@@ -144,6 +144,26 @@ Children:
      "Start","Start",
      "Pens","Pens",
      "Background","Background",
-     "Thresholds","Thresholds"
+     "Thresholds","Thresholds",
+     "Save","Save",
+     "RecipeControllerLegacyRecipe","Recipe",
+     "Delete","Delete",
+     "RecipeControllerLegacyDeleted","deleted",
+     "Load","Load",
+     "RecipeControllerLegacyEmptyRecipeName","Recipe name is empty",
+     "RecipeControllerLegacyCreatedAndSaved","created and saved",
+     "RecipeControllerLegacyRecipeLoaded","Recipe loaded",
+     "RecipeControllerLegacyRecipeApplied","Recipe applied",
+     "RecipeControllerLegacySaved","saved",
+     "RecipesEditorLegacyRecipeSchemaNotFound","RecipeSchema variable not found",
+     "RecipesEditorLegacyRecipeSchemaNotSet","RecipeSchema not set",
+     "RecipesEditorLegacyRecipeNotFound","Recipe not found",
+     "RecipesEditorLegacyNotARecipe","is not a recipe",
+     "RecipesEditorLegacyNotFound","not found",
+     "RecipesEditorLegacyStoreOfSchema","Store of schema",
+     "RecipesEditorLegacyNotSet","is not set",
+     "RecipesEditorLegacyStore","Store",
+     "RecipesEditorLegacyNotAStore","is not a store",
+     "RecipesEditorLegacyEditModelOfSchema","EditModel of schema"
     ]
    }

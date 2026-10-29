@@ -472,7 +472,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/myTutorialProject/UI/Pages/Page8"
+          Value: "/Objects/myTutorialProject/UI/Pages/Recepies"
           Children:
           - Name: Kind
             Type: PropertyType
