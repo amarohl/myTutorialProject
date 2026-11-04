@@ -9,11 +9,11 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [179,4],
+    "Dimensions": [193,4],
     "Body": [
      "","en-US","de-DE","es-ES",
-     "Cancel","Cancel","","",
-     "Apply","Apply","","",
+     "Cancel","Cancel","Abbrechen","Cancelar",
+     "Apply","Apply","Anwenden","Aplicar",
      "InAlarmConfirmed","In Alarm - Confirmed","","",
      "NormalUnacked","Normal - Unacked","","",
      "FromEventTime","From Event Time:","","",
@@ -62,7 +62,7 @@ Children:
      "Confirm","Confirm","","",
      "FilteredBy","Filtered by:","","",
      "Class","Class","","",
-     "Name","Name","","",
+     "Name","Name","Name","Nombre",
      "SourceVariable","Source Variable","","",
      "Severity","Severity","","",
      "Priority","Priority","","",
@@ -147,7 +147,7 @@ Children:
      "Thresholds","Thresholds","","",
      "Save","Save","","",
      "RecipeControllerLegacyRecipe","Recipe","","",
-     "Delete","Delete","","",
+     "Delete","Delete","Löschen","Eliminar",
      "RecipeControllerLegacyDeleted","deleted","","",
      "Load","Load","","",
      "RecipeControllerLegacyEmptyRecipeName","Recipe name is empty","","",
@@ -189,6 +189,20 @@ Children:
      "ChangePasswordFormPasswordMismatchMessage","Passwords do not match","Passwörter stimmen nicht überein","Las contraseñas no coinciden",
      "LoginFormLoginSuccessful","Login successful","Anmeldung erfolgreich","Inicio de sesión correcto",
      "LoginFormAuthenticationFailed","Authentication failed","Authentifizierung fehlgeschlagen","Fallo de autenticación",
-     "LoginFormInvalidAuthenticationModeForUser","Invalid authentication mode for user","Ungültiger Authentifizierungsmodus für Benutzer","Modo de autenticación no válido para el usuario"
+     "LoginFormInvalidAuthenticationModeForUser","Invalid authentication mode for user","Ungültiger Authentifizierungsmodus für Benutzer","Modo de autenticación no válido para el usuario",
+     "Create","Create","Erstellen","Crear",
+     "Groups","Groups","Gruppen","Grupos",
+     "EmptyUserList","No users in list","Keine Benutzer in der Liste","No hay usuarios en la lista",
+     "PasswordChangedTooRecently","Password changed too recently","Passwort wurde zu oft geändert","La contraseña ya se cambió hace poco",
+     "Roles","Roles","Rollen","Roles",
+     "Locale:","Locale:","Gebietsschema:","Configuración regional:",
+     "CannotCreateUserWithEmptyUsername","Cannot create user with empty username","Benutzer kann nicht mit leerem Benutzernamen erstellt werden","No se puede crear el usuario con un nombre de usuario vacío",
+     "UnableToGetUsers","Unable to get users","Benutzer können nicht ermittelt werden","No se pueden obtener los usuarios",
+     "UsernameAlreadyExists","Username already exists","Benutzername bereits vorhanden","El nombre de usuario ya existe",
+     "UserNotFound","User not found","Benutzer nicht gefunden","No se encuentra el usuario",
+     "PasswordAlreadyUsed","Password already used in the past","Passwort wurde bereits in der Vergangenheit verwendet","La contraseña ya se ha utilizado en el pasado",
+     "PasswordTooShort","Password too short","Passwort zu kurz","La contraseña es demasiado corta",
+     "UnsupportedOperation","Unsupported operation","Nicht unterstützter Vorgang","Operación no compatible",
+     "ChangesAppliedSuccessfully","Changes applied successfully","Änderungen erfolgreich übernommen","Los cambios se han aplicado correctamente"
     ]
    }

@@ -526,7 +526,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/myTutorialProject/UI/Pages/Page11"
+          Value: "/Objects/myTutorialProject/UI/Pages/UserManagement"
           Children:
           - Name: Kind
             Type: PropertyType

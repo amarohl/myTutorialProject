@@ -149,15 +149,15 @@ Project:
    Module: FTOptix.RecipeX.Net
    Version: 1.1
  Statistics:
-  TotalNodeCount: 15665
-  Objects: 3320
-  ObjectTypes: 90
-  Variables: 12217
+  TotalNodeCount: 16656
+  Objects: 3494
+  ObjectTypes: 100
+  Variables: 13020
   VariableTypes: 0
   DataTypes: 0
-  Methods: 38
-  References: 192
+  Methods: 42
+  References: 207
   ReferenceTypes: 0
-  Files: 37
+  Files: 38
  Nodes:
  - File: Nodes/myTutorialProject.yaml
