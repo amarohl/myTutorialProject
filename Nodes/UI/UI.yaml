@@ -403,6 +403,15 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+        - Name: Visible
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Session}/Groups/TeamMaitnece"
       - Name: Panel4
         Type: NavigationPanelItem
         Children:
@@ -502,7 +511,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/myTutorialProject/UI/Pages/Page10"
+          Value: "/Objects/myTutorialProject/UI/Pages/UserLogin"
           Children:
           - Name: Kind
             Type: PropertyType

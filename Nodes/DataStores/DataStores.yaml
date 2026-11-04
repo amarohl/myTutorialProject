@@ -56,6 +56,12 @@ Children:
         - Name: LocalTime
           Type: StoreColumn
           DataType: DateTime
+        - Name: 'Message_de-DE'
+          Type: StoreColumn
+          DataType: String
+        - Name: 'Message_es-ES'
+          Type: StoreColumn
+          DataType: String
   - Class: Reference
     Target: ns=25;i=30
     Direction: Forward

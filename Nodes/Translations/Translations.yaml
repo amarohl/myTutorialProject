@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [158,4],
+    "Dimensions": [179,4],
     "Body": [
      "","en-US","de-DE","es-ES",
      "Cancel","Cancel","","",
@@ -168,6 +168,27 @@ Children:
      "HelloWorld","Hello World","Halo Welt","Hola Mundo",
      "English","English","Englisch","Ingles",
      "Greman","Greman","Deutsch","Aleman",
-     "Spanish","Spanish","Spanisch","Espanol"
+     "Spanish","Spanish","Spanisch","Espanol",
+     "Old password","Old password","Altes Passwort","Contraseña antigua",
+     "LoginFormPasswordExpired","Password expired","Passwort abgelaufen","Contraseña caducada",
+     "Login","Login","Anmelden","Inicio de sesión",
+     "New password","New password","Neues Passwort","Contraseña nueva",
+     "Password","Password","Passwort","Contraseña",
+     "Confirm password","Confirm password","Passwort bestätigen","Confirmar contraseña",
+     "Change password","Change password","Passwort ändern","Cambiar contraseña",
+     "Your password is expired. Please enter a new one","Your password is expired.\nPlease enter a new one.","Ihr Passwort ist abgelaufen.\nGeben Sie ein neues ein.","Su contraseña ha caducado.\nIntroduzca una nueva.",
+     "Current User:","Current User:","Aktueller Benutzer:","Usuario actual:",
+     "Logout","Logout","Abmelden","Cierre de sesión",
+     "ChangePasswordFormSuccessMessage","Password changed successfully","Passwort erfolgreich geändert","La contraseña se ha cambiado correctamente",
+     "ChangePasswordFormWrongOldPasswordMessage","Wrong old password","Falsches altes Passwort","Contraseña antigua incorrecta",
+     "ChangePasswordFormPasswordAlreadyUsedMessage","Password already used","Passwort bereits verwendet","La contraseña ya se ha utilizado",
+     "ChangePasswordFormPasswordChangedTooRecentlyMessage","Password changed too recently","Passwort wurde zu oft geändert","La contraseña ya se cambió hace poco",
+     "ChangePasswordFormPasswordTooShortMessage","Password too short","Passwort zu kurz","La contraseña es demasiado corta",
+     "ChangePasswordFormUserNotFoundMessage","User not found","Benutzer nicht gefunden","No se encuentra el usuario",
+     "ChangePasswordFormUnsupportedOperationMessage","Unsupported operation","Nicht unterstützter Vorgang","Operación no compatible",
+     "ChangePasswordFormPasswordMismatchMessage","Passwords do not match","Passwörter stimmen nicht überein","Las contraseñas no coinciden",
+     "LoginFormLoginSuccessful","Login successful","Anmeldung erfolgreich","Inicio de sesión correcto",
+     "LoginFormAuthenticationFailed","Authentication failed","Authentifizierung fehlgeschlagen","Fallo de autenticación",
+     "LoginFormInvalidAuthenticationModeForUser","Invalid authentication mode for user","Ungültiger Authentifizierungsmodus für Benutzer","Modo de autenticación no válido para el usuario"
     ]
    }

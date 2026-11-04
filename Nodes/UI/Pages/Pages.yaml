@@ -216,6 +216,15 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 85.0
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{Session}/Groups/TeamMaitnece"
   - Name: TextBox1
     Type: TextBox
     Children:
@@ -248,6 +257,15 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 45.0
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{Session}/Groups/TeamMaitnece"
   - Name: TextBox2
     Type: TextBox
     Children:
@@ -6502,10 +6520,82 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 197.0
-- Name: Page10
+- Name: UserLogin
   Id: g=97f5cce7a479a7185578c02f01bd4e02
   Supertype: Page
   ReferenceType: HasComponent
+  Children:
+  - Name: LoginForm1
+    Type: LoginForm
+    Children:
+    - Name: Panel
+      Type: NodePointer
+      DataType: NodeId
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: ConditionalConverter1
+        Type: ConditionalConverter
+        Children:
+        - Name: Condition
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Session}/LoggedIn"
+        - Name: FalseValue
+          Type: BaseDataVariableType
+          DataType: NodeId
+          ReferenceType: HasParameter
+          Value: "/Objects/myTutorialProject/UI/Screens/LoginForm/LoginFormComponents/Login"
+          Children:
+          - Name: KeyValueConverter1
+            Type: ValueMapConverter
+            Children:
+            - Name: Source
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/myTutorialProject/Authentication/AuthenticationMode"
+    - Name: CurrentPanel
+      Type: NodePointer
+      DataType: NodeId
+      AccessLevel: Read
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+    - Class: Reference
+      Target: ns=3;i=478
+      Direction: Forward
+    - Name: Users
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/myTutorialProject/Security/Users"
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+    - Name: PanelAliasNode
+      Type: BaseDataVariableType
+      DataType: NodeId
+      ValueRank: ScalarOrOneDimension
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../Users@NodeId"
 - Name: Page11
   Id: g=2841daa4b273fc0742529413f3196f74
   Supertype: Page

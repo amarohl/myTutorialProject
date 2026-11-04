@@ -33,3 +33,4 @@ Children:
     Value: "#f0f0f0"
 - File: AlarmWidgets/AlarmWidgets.yaml
 - File: AdvancedTrend/AdvancedTrend.yaml
+- File: LoginForm/LoginForm.yaml
